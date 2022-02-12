@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- navbar -->
+    <div class="nav-container">
+    <header>
+        <div class="logo">KT</div>
+        <nav>
+            <ul class="nav-ul">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">My Skills</a></li>
+                <li><a href="https://github.com/teja0o8">Projects</a>  <img class="git-img" src="img/icons8-github(1).svg" alt=""></li>
+            </ul>    
+        </nav>
+    </header>
+    </div>
+
+
+<!-- particles -->
+<div class="contaier-particles">
+    <div id="particles-js"></div>
+
+    
+ <div class="hero">
+    <div class="content">
+        <h1>I'm Krishna Teja</h1>
+        <div class="stagger1">
+            <span>
+            <p>A final-year Electronics and Communication undergraduate student <br> at Mahaveer Institute of Science & Technology</p>
+            </span>
+        </div>
+    </div>
+
+ </div>  
+</div> 
+
+<!--            SKILLS              -->
+    <section class="skills">
+        <div class="skills-info">Skills</div>
+        <div class="skills-container">
+            <ul class="skill-ul">
+                <li class="transition2">
+                    <div class="icon-container one">
+                        <img class="crc-img" src="img/icons8-html-5.svg" alt="">
+                    </div>
+                    <p class="skill-tittle">HTML</p>
+                    <p class="featured-desc skill-desc">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies.</p>
+                </li>
+                <li class="transition2">
+                    <div class="icon-container two">
+                        <img class="crc-img" src="img/icons8-css3.svg" alt="">
+                    </div>
+                    <p class="skill-tittle">Css</p>
+                    <p class="featured-desc skill-desc">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web.</p>
+                </li>
+                <li class="transition2">
+                    <div class="icon-container three">
+                        <img class="crc-img" src="img/icons8-javascript.svg" alt="">
+                    </div>
+                    <p class="skill-tittle">JS</p>
+                    <p class="featured-desc skill-desc"> JAVASCRIPT is a programming language that is one of the core technologies of the World Wide Web.</p>
+                </li>
+            </ul>
+        </div>
+    
+    </section>
+    <section class="portfolio">
+        <div class="projects-info">Projects</div>
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Calculator</p>
+                    
+                    <p class="featured-desc">This is a basic calculator.</p>
+                </div>
+            </div>
+
+
+<!--                 calculator                 -->
+
+            <div class="cal-pro">
+                <div class="calbody">
+                    <div class="calculator-grid">
+                        <div class="resultbar">
+                            <div data-previous-operand class="previous-op"></div>
+                            <div data-current-operand class="current-op"></div>
+                        </div>
+                    <button data-all-clear class="span-two">AC</button>
+                    <button data-delete>DEl</button>
+                    <button data-operation class="span-three">÷</button>
+                    <button data-number>1</button>
+                    <button data-number>2</button>
+                    <button data-number>3</button>
+                    <button data-operation>×</button>
+                    <button data-number>4</button>
+                    <button data-number>5</button>    
+                    <button data-number>6</button>
+                    <button data-operation>+</button>
+                    <button data-number>7</button>
+                    <button data-number>8</button>
+                    <button data-number>9</button>
+                    <button data-operation>−</button>
+                    <button data-number class="span-four">.</button>
+                    <button data-number>0</button>
+                    <button data-equals class="span-five">=</button>
+                    </div>
+                </div>        </div>
+
+
+
+
+<!--                 TICTACTOE                 -->
+        </div>
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Tic Tac Toe</p>
+                    
+                    <p class="featured-desc">tic-tac-toe, Xs and Os game for two players who take turns marking the spaces in a three-by-three grid with X or O. <br> the player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.</p>
+                </div>
+            </div>
+
+
+
+            <div class="tik-pro">
+                <div class="boxbg">
+                    <button id="newGameButton">New Game</button>
+                    <div class="board" id="board">
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                        <div class="box" data-box></div>
+                      </div>
+                      <div class="winning-message" id="winningMessage">
+                        <div data-winning-message-text></div>
+                        <button id="restartButton">Restart</button>
+                      </div>
+                </div>
+            </div>
+
+
+
+
+<!--                 CSS CUBE                 -->
+        </div>
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">CSS Cube</p>
+                    
+                    <p class="featured-desc">A css cube that rotates in 720deg</p>
+                </div>
+            </div>
+
+            <div class="cube-pro">
+                <div class="cube-box">
+                    <div class="cube-box">
+                        <div class="side front"></div>
+                        <div class="side back"></div>
+                        <div class="side left"></div>
+                        <div class="side right"></div>
+                        <div class="side top"></div>
+                        <div class="side bottom"></div>
+                    </div>
+                   </div>
+            </div>
+        
+            </div>
+
+<!--                              -->
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js" ></script>
+</body>
+</html>
